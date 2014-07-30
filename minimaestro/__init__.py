@@ -6,11 +6,15 @@ app = Flask(__name__)
 THEME_FILE = os.path.join(os.path.dirname(__file__), 'theme_settings.py')
 
 
+_themedata = {}
+
 def theme_settings():
-    variables = {}
-    with open(THEME_FILE) as f:
-        exec(f.read(), variables, variables)
-    return variables
+    global _themedata
+    if _themedata is None or app.debug:
+        _themedata = {}
+        with open(THEME_FILE) as f:
+            exec(f.read(), _themedata, _themedata)
+    return _themedata
 
 
 @app.route('/')
