@@ -26,7 +26,7 @@
 /*}*/
 body {
   font-size: 16px;
-  background-color: #ededff;
+  background-color: #ffeed9;
 }
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "gandhi sans", helvetica, sans-serif;
@@ -39,7 +39,7 @@ body, h1, h2, h3, h4, h5, h6 {
   max-width: 920px;
 }
 .navbar {
-  background: #e5aa69;
+  background: #5800b0;
   padding: 0.3em 0;
 }
 .navbar .navbar-brand {
@@ -58,7 +58,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 .jumbotron {
   /*background: url(../img/noisy_net.png);*/
-  background-color: #00a4c0;
+  background-color: #8a4388;
   color: #fff;
   padding: 6.5em 0 6em;
   text-align: center;
@@ -103,12 +103,12 @@ body, h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .benefit .benefit-ball {
-  background: #e5aa69;
+  background: #8a4388;
   border-radius: 50%;
   color: #fff;
   display: inline-block;
   line-height: 1em;
-  padding: 1.5em;
+  padding: 2em;
 }
 .benefit .benefit-ball .glyphicon {
   font-size: 4em;
@@ -132,7 +132,7 @@ body, h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 footer {
-  background: #e5aa69;
+  background: #5800b0;
   color: #fff;
   margin: 3.5em 0 0;
   padding: 1.5em 0 0.8em;
