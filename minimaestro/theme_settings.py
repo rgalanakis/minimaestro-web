@@ -25,19 +25,23 @@ link_itunes = 'https://itunes.apple.com/us/app/safari-rush/id825143127'
 benefits_title = 'Features'
 benefits = [
     {
+        'glyph': 'music',
         'text': 'Accessible and educational for children of all ages.'
     },
     {
+        'glyph': 'music',
         'text': 'Arrange 11 instruments, including clarinet, flute, '
                 'tuba, trumpet, french horn, '
                 'drums, cymbals, xylophone, piano, '
                 'harp, and violin.'
     },
     {
+        'glyph': 'music',
         'text': 'Experience 7 classical symphonies from composers including '
                 'Beethoven, Vivaldi, Tchaikovsky, and Fučík.'
     },
     {
+        'glyph': 'music',
         'text': 'Learn the different sections of an orchestra.'
     },
 ]
