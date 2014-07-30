@@ -6,7 +6,7 @@ app = Flask(__name__)
 THEME_FILE = os.path.join(os.path.dirname(__file__), 'theme_settings.py')
 
 
-_themedata = {}
+_themedata = None
 
 def theme_settings():
     global _themedata
