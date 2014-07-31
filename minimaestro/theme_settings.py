@@ -25,23 +25,27 @@ link_itunes = 'http://www.testflightapp.com/join/e68bbc9c09e115af459599b5686265f
 benefits_title = 'Features'
 benefits = [
     {
-        'glyph': 'music',
-        'text': 'Accessible and educational for children of all ages.'
+        'image': 'static/img/instrument_clarinet.png',
+        'height': '90px',
+        'text': 'Accessible and educational for children of all ages.',
     },
     {
-        'glyph': 'music',
+        'image': 'static/img/instrument_horn.png',
+        'height': '80px',
         'text': 'Arrange 11 instruments, including clarinet, flute, '
                 'tuba, trumpet, french horn, '
                 'drums, cymbals, xylophone, piano, '
                 'harp, and violin.'
     },
     {
-        'glyph': 'music',
+        'image': 'static/img/instrument_cymbal.png',
+        'height': '90px',
         'text': 'Experience 7 classical symphonies from composers including '
                 'Beethoven, Vivaldi, Tchaikovsky, and Fučík.'
     },
     {
-        'glyph': 'music',
+        'image': 'static/img/instrument_violin.png',
+        'height': '90px',
         'text': 'Learn the different sections of an orchestra.'
     },
 ]

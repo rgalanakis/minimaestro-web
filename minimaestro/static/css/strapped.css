@@ -103,12 +103,14 @@ body, h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .benefit .benefit-ball {
-  background: #e5aa69;
+  background: rgba(229, 170, 105, 0);
   border-radius: 50%;
   color: #fff;
   display: inline-block;
   line-height: 1em;
-  padding: 1.5em;
+  padding: 0;
+  width: 80px;
+  height: 80px;
 }
 .benefit .benefit-ball .glyphicon {
   font-size: 4em;
