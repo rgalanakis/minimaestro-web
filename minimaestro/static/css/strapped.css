@@ -4,26 +4,11 @@
   font-weight: 400;
   src: url(../fonts/Delius-Regular.ttf);
 }
-/*@font-face {*/
-  /*font-family: "gandhi sans";*/
-  /*font-style: normal;*/
-  /*font-weight: 700;*/
-  /*src: url(../fonts/gandhi-bold-sans.ttf), url(../fonts/gandhi-bold-sans.eot);*/
-/*}*/
 @font-face {
   font-family: "gandhi serif";
   font-style: normal;
-  /*font-weight: 400;*/
-  /*src: url(../fonts/gandhi-serif.ttf), url(../fonts/gandhi-serif.eot);*/
   src: url(../fonts/PatrickHand-Regular.ttf);
 }
-/*@font-face {*/
-  /*font-family: "gandhi serif";*/
-  /*font-style: normal;*/
-  /*font-weight: 700;*/
-  /*src: url(../fonts/gandhi-bold-serif.ttf), url(../fonts/gandhi-bold-serif.eot);*/
-  /*src: url(../fonts/gandhi-sans.ttf), url(../fonts/gandhi-serif.eot);*/
-/*}*/
 body {
   font-size: 16px;
   background-color: #ededff;
@@ -58,7 +43,6 @@ body, h1, h2, h3, h4, h5, h6 {
   margin: 0.7em 0 0 1em;
 }
 .jumbotron {
-  /*background: url(../img/noisy_net.png);*/
   background-color: #00a4c0;
   color: #fff;
   padding: 6em 0 2em;
