@@ -60,7 +60,7 @@ body, h1, h2, h3, h4, h5, h6 {
   /*background: url(../img/noisy_net.png);*/
   background-color: #00a4c0;
   color: #fff;
-  padding: 6.5em 0 6em;
+  padding: 6em 0 2em;
   text-align: center;
 }
 .jumbotron h1 {
@@ -87,9 +87,8 @@ body, h1, h2, h3, h4, h5, h6 {
   top: 3px;
 }
 .sect-border {
-  border-top: 1px dashed #d6d6d6;
-  border-bottom: 1px dashed #f6f6f6;
-  margin: 2em 8% 2.4em;
+  border: 1px dashed #f7ad7d;
+  margin: 1.4em 8% 1.8em;
 }
 .subhead {
   color: #000;
@@ -97,6 +96,7 @@ body, h1, h2, h3, h4, h5, h6 {
   font-size: 3em;
   text-align: center;
   margin: 0.3em 0;
+  padding: 0 0 0.5em 0;
 }
 .benefit {
   margin: 0.8em 0;
