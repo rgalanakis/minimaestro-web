@@ -14,6 +14,7 @@ copyright_html = 'Copyright &copy; Brian Mumm and Rob Galanakis 2014'
 # - Professionally recorded sounds
 # - Included playbill teaches composers, writers and lyrics
 # - Watch the video!
+logosrc = 'static/img/logo.png'
 jumbo_title = 'Become a Maestro!'
 jumbo_text = ('Create beautiful music by placing up to 6 instruments into'
               'the orchestra pit. '
