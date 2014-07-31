@@ -54,35 +54,28 @@ benefits = [
 media_title = 'Videos and Screenshots'
 videos = [
     {
-        'src': 'https://www.youtube.com/embed/7n8TTHrU3hM',
+        'src': 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     },
     {
-        'src': 'https://www.youtube.com/embed/7n8TTHrU3hM',
+        'src': 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+        # 'src': 'https://www.youtube.com/embed/7n8TTHrU3hM',
     },
 
 ]
 
 images = [
     {
-        'caption_html': 'Placeholder Image',
-        'src': 'static/img/stock1.jpg'
+        'src': 'static/img/ss1.png'
     },
     {
-        'caption_html': 'Placeholder Image',
-        'src': 'static/img/stock2.jpg'
+        'src': 'static/img/ss2.png'
     },
     {
-        'caption_html': 'Placeholder Image',
-        'src': 'static/img/stock3.jpg'
+        'src': 'static/img/ss3.png'
     },
     {
-        'caption_html': 'Placeholder Image',
-        'src': 'static/img/stock4.jpg'
+        'src': 'static/img/ss4.png'
     },
-    {
-        'caption_html': 'Placeholder Image',
-        'src': 'static/img/stock5.jpg'
-    }
 ]
 
 support_title = 'Support'
