@@ -1,11 +1,12 @@
 import os
 from flask import Flask, render_template
+from flask.ext.cache import Cache
 
 app = Flask(__name__)
 
+cache = Cache(app, config={'CACHE_TYPE': 'simple'})
+
 THEME_FILE = os.path.join(os.path.dirname(__file__), 'theme_settings.py')
-
-
 _themedata = None
 
 def theme_settings():
@@ -18,5 +19,6 @@ def theme_settings():
 
 
 @app.route('/')
+@cache.cached(timeout=60)
 def home():
     return render_template('strapped.html', **theme_settings())

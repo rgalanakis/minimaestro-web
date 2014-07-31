@@ -16,11 +16,11 @@ copyright_html = 'Copyright &copy; Brian Mumm and Rob Galanakis 2014'
 # - Watch the video!
 jumbo_title = 'Become a Maestro!'
 jumbo_text = ('Create beautiful music by placing up to 6 instruments into'
-              'the orchestra pit.'
+              'the orchestra pit. '
               'Choose new instruments and experience the '
               'musical transformation.')
 
-link_itunes = 'https://itunes.apple.com/us/app/safari-rush/id825143127'
+link_itunes = 'http://www.testflightapp.com/join/e68bbc9c09e115af459599b5686265fc-MzMwNjI2/'
 
 benefits_title = 'Features'
 benefits = [
@@ -49,23 +49,23 @@ benefits = [
 tour_title = 'Screenshots and Videos'
 tour_items = [
     {
-        'caption_html': 'Amazing photos provided by <a href=\'http://unsplash.com\'>unsplash.com</a>',
+        'caption_html': 'Placeholder Image',
         'src': 'static/img/stock1.jpg'
     },
     {
-        'caption_html': 'Boat in Water',
+        'caption_html': 'Placeholder Image',
         'src': 'static/img/stock2.jpg'
     },
     {
-        'caption_html': 'Millennium Bridge in London',
+        'caption_html': 'Placeholder Image',
         'src': 'static/img/stock3.jpg'
     },
     {
-        'caption_html': 'Blurs',
+        'caption_html': 'Placeholder Image',
         'src': 'static/img/stock4.jpg'
     },
     {
-        'caption_html': 'Santorini Greece',
+        'caption_html': 'Placeholder Image',
         'src': 'static/img/stock5.jpg'
     }
 ]
