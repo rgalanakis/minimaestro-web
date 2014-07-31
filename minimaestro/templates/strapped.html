@@ -22,7 +22,7 @@
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#tour" class="nav-link">Media</a></li>
+            <li><a href="#media" class="nav-link">Media</a></li>
             <li><a href="#benefits" class="nav-link">Features</a></li>
             <li><a href="#support" class="nav-link">Support</a></li>
             <li><a href="#about" class="nav-link">About</a></li>
@@ -44,21 +44,26 @@
 
     <div class="container">
 
-      <h3 id="tour" class="subhead">{{ tour_title }}</h3>
+      <h3 id="media" class="subhead">{{ media_title }}</h3>
+      <div class="row">
+          {% for video in videos %}
+            <iframe class="col-sm-6" height="333" frameborder="0" allowfullscreen="" src="{{ video.src }}"></iframe>
+          {% endfor %}
+      </div>
       <div class="row">
         <div class="col-md-12">
           <div id="slideshow" class="carousel slide">
             <ol class="carousel-indicators">
-              {% for touritem in tour_items %}
+              {% for image in images %}
                 <li data-target="#slideshow" data-slide-to="{{ loop.index0 }}" {% if loop.first %}class="active"{% endif %}></li>
               {% endfor %}
             </ol>
 
             <div class="carousel-inner">
-              {% for touritem in tour_items %}
+              {% for image in images %}
               <div class="item {% if loop.first %}active{% endif %}">
-                <img src="{{ touritem.src }}">
-                <div class="carousel-caption">{{ touritem.caption_html|safe }}</div>
+                <img src="{{ image.src }}">
+                <div class="carousel-caption">{{ image.caption_html|safe }}</div>
               </div>
               {% endfor %}
             </div>

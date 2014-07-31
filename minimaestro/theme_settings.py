@@ -46,8 +46,18 @@ benefits = [
     },
 ]
 
-tour_title = 'Screenshots and Videos'
-tour_items = [
+media_title = 'Videos and Screenshots'
+videos = [
+    {
+        'src': 'https://www.youtube.com/embed/7n8TTHrU3hM',
+    },
+    {
+        'src': 'https://www.youtube.com/embed/7n8TTHrU3hM',
+    },
+
+]
+
+images = [
     {
         'caption_html': 'Placeholder Image',
         'src': 'static/img/stock1.jpg'
