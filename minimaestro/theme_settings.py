@@ -78,12 +78,22 @@ images = [
     },
 ]
 
+def _email(linktext, subject):
+    template = '<a href="mailto:support@minimaestrogame.com?Subject={subject}" target="_top">{linktext}</a>'
+    result = template.format(**locals())
+    return result
+
 support_title = 'Support'
-support_html = (
-    "If you have a problem, request, or suggestion, don't hesitate to "
-    '<a href="mailto:support@minimaestrogame.com?Subject=Support Request" target="_top">email us</a>!<br/>'
-    'You can also create an issue on our public issue tracker <a href="https://github.com/rgalanakis/minimaestro-public/issues">here</a>.'
-)
+support_html = """
+<p>If you have a problem, request, or suggestion, don't hesitate to
+{email_support}.</p>
+<p>You can also create an issue on our public issue tracker
+<a href="https://github.com/rgalanakis/minimaestro-public/issues">here</a>.</p>
+<p>Looking for an Android or Windows Phone version of Mini Maestro?
+{email_android} for the beta.</p>
+""".format(
+    email_support=_email('email us', 'Support Request'),
+    email_android=_email('Sign up', 'Mini Maestro Android beta'))
 
 about_title = 'About Mini Maestro'
 about_paragraphs = [
