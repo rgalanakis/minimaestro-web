@@ -16,7 +16,7 @@ copyright_html = 'Copyright &copy; Rob Galanakis and Brian Mumm 2014'
 # - Watch the video!
 logosrc = 'static/img/logo.png'
 jumbo_title = 'Become a Maestro!'
-jumbo_text = ('Create beautiful music by placing up to 6 instruments into'
+jumbo_text = ('Create beautiful music by placing up to 6 instruments into '
               'the orchestra pit. '
               'Choose new instruments and experience the '
               'musical transformation.')
