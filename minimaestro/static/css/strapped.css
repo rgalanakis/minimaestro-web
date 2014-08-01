@@ -116,6 +116,15 @@ iframe {
 #slideshow {
   margin: 0.5em 0 1.5em;
 }
+.carousel-control.left {
+  background-image: linear-gradient(to right,rgba(1,0,0,0.3) 0,rgba(0,0,0,0.0001) 100%);
+}
+.carousel-control.right {
+  background-image: linear-gradient(to right,rgba(1,0,0,0.0001) 0,rgba(0,0,0,0.3) 100%);
+}
+.carousel-control {
+    width: 8%;
+}
 #slideshow .carousel-inner img {
   background: #000;
   width: 1024px;
