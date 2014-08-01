@@ -1,6 +1,6 @@
 title = 'Mini Maestro - Kids Music Game'
 branding = 'Mini Maestro'
-copyright_html = 'Copyright &copy; Brian Mumm and Rob Galanakis 2014'
+copyright_html = 'Copyright &copy; Rob Galanakis and Brian Mumm 2014'
 
 # You're the conductor!
 # Choose up to 6 instruments to put in the orchestra pit and
@@ -92,6 +92,6 @@ about_paragraphs = [
      'I saw how much fun he got out of it: exploring instruments, '
      'learning classical songs, and just dancing like a madman. '
      'Mini Maestro aspires to deliver this same joy but in a digital form.'),
-    ('This game was created by Brian Mumm and Rob Galanakis. '
+    ('This game was created by Rob Galanakis and Brian Mumm. '
      'I hope you enjoy playing Mini Maestro as much as we enjoyed making it!')
 ]

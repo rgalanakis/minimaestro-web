@@ -16,6 +16,9 @@ body {
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "gandhi sans", helvetica, sans-serif;
 }
+iframe {
+    padding-bottom: 1em;
+}
 .btn {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 2px;
@@ -24,7 +27,7 @@ body, h1, h2, h3, h4, h5, h6 {
   max-width: 920px;
 }
 .navbar {
-  background: #e5aa69;
+  background: #f8a137;
   padding: 0.3em 0;
   font-size: 18px;
 }
@@ -72,7 +75,7 @@ body, h1, h2, h3, h4, h5, h6 {
   top: 3px;
 }
 .sect-border {
-  border: 1px dashed #f7ad7d;
+  border: 1px dashed #f8bb7a;
   margin: 1.4em 8% 1.8em;
 }
 .subhead {
@@ -119,7 +122,7 @@ body, h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 footer {
-  background: #e5aa69;
+  background: #f8a137;
   color: #fff;
   margin: 3.5em 0 0;
   padding: 1.5em 0 0.8em;
