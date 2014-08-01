@@ -2,6 +2,8 @@ title = 'Mini Maestro - Kids Music Game'
 branding = 'Mini Maestro'
 copyright_html = 'Copyright &copy; Rob Galanakis and Brian Mumm 2014'
 
+favicon = 'static/img/favicon.ico'
+
 # You're the conductor!
 # Choose up to 6 instruments to put in the orchestra pit and
 # hear them play together.
@@ -15,11 +17,10 @@ copyright_html = 'Copyright &copy; Rob Galanakis and Brian Mumm 2014'
 # - Included playbill teaches composers, writers and lyrics
 # - Watch the video!
 logosrc = 'static/img/logo.png'
-jumbo_title = 'Become a Maestro!'
-jumbo_text = ('Create beautiful music by placing up to 6 instruments into '
-              'the orchestra pit. '
-              'Choose new instruments and experience the '
-              'musical transformation.')
+jumbo_title = 'Hello, Maestro!'
+jumbo_text = """
+Create beautiful music by placing up to 6 instruments into the orchestra pit.
+Choose new instruments and experience the musical transformation."""
 
 link_itunes = 'http://www.testflightapp.com/join/e68bbc9c09e115af459599b5686265fc-MzMwNjI2/'
 
